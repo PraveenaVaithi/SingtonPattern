@@ -17,6 +17,7 @@ public class DbDAOImpl implements DbDAO {
     @Override
     public int add(PermanentEmployee emp) throws SQLException {
 
+
         String query
                 = "insert into permanent_employee(employeeName,"+ "location) VALUES (?,?)";
         PreparedStatement ps
