@@ -16,6 +16,8 @@ public class Tester {
         DbDAOImpl db = new DbDAOImpl();
         db.add(p1);
 
+
+
         List<PermanentEmployee> ls = db.getEmployees();
         for (PermanentEmployee allEmp : ls) {
             System.out.println("Employee Name: " + allEmp.getEmployeeName());
